@@ -8,7 +8,7 @@ socketio = SocketIO(app, cors_allowed_origins="*")
 # 対戦部屋の一覧を取得する
 @app.route('/hello', methods=['GET'])
 def hello():
-    return jsonify({'message': 'Hello, World!'})
+    return jsonify({'message': 'Hello, World!'}, 200)
 
 # クライアントが接続したとき
 @socketio.on('connect')
