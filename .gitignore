@@ -1,3 +1,6 @@
+# pem files
+*.pem
+
 .vercel
 *.log
 *.pyc
